@@ -399,7 +399,7 @@ end
 --  define the property 'filetypes' to the map in question.
 local servers = {
   clangd = {},
-  gopls = {},x
+  gopls = {},
   pyright = {'python'},
   rust_analyzer = {'rust'},
   intelephense = {'php'},
