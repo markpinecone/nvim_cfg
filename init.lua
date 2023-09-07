@@ -398,11 +398,12 @@ end
 --  If you want to override the default filetypes that your language server will attach to you can
 --  define the property 'filetypes' to the map in question.
 local servers = {
-  -- clangd = {},
-  gopls = {},
-  pyright = {},
-  rust_analyzer = {},
-  intelephense = {},
+  clangd = {},
+  gopls = {},x
+  pyright = {'python'},
+  rust_analyzer = {'rust'},
+  intelephense = {'php'},
+  phpactor = {'php'},
   -- tsserver = {},
   html = { filetypes = { 'html', 'twig', 'hbs'} },
 
