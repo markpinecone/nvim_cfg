@@ -18,4 +18,3 @@ return {
     vim.keymap.set('v', '<A-l>', ':MoveHBlock(1)<CR>', opts)
   end,
 }
-

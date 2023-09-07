@@ -400,12 +400,12 @@ end
 local servers = {
   clangd = {},
   gopls = {},
-  pyright = {'python'},
-  rust_analyzer = {'rust'},
-  intelephense = {'php'},
-  phpactor = {'php'},
+  pyright = { 'python' },
+  rust_analyzer = { 'rust' },
+  intelephense = { 'php' },
+  phpactor = { 'php' },
   -- tsserver = {},
-  html = { filetypes = { 'html', 'twig', 'hbs'} },
+  html = { filetypes = { 'html', 'twig', 'hbs' } },
 
   lua_ls = {
     Lua = {
